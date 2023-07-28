@@ -1,0 +1,122 @@
+/* NAVBAR */
+nav{
+    margin-bottom: 3%;
+}
+
+/* FONDO */
+body{
+    background-image: url("../img/fondo.webp");
+}
+
+
+/* UTILIDADES */
+
+    /* FONT */
+    p{
+        font-size: 14pt !important;
+        background-color: white;
+    }
+    
+    .personajes{
+        font-size: 12pt !important;
+    }
+
+
+    /* MARGENES */
+    h1{
+        margin-bottom: 2% !important;
+    }
+    
+    .text-justify{
+        text-align: justify;
+    }
+    
+    .contenedor{
+        padding: 0 5% 3%;
+    }
+
+    .tema{
+        margin-bottom: 3%;
+    }
+
+    hr{
+        margin: 0 !important;
+    }
+
+    .centrar{
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    
+    .formulario-content{
+        margin-top: 6%;
+        margin-bottom: 3%;
+        padding: 0 20%;
+    }
+    
+    .boton{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* IMAGENES */
+    .imgIni{
+        width:400px; 
+        height:500px
+    }
+
+    .imgPer{
+        width: 255px;
+    }
+
+    .imgAut{
+        width:300px; 
+        height:400px
+    }
+
+    @media (max-width:1200px){
+        .imgIni{
+            width:350px;
+            height:500px
+        }
+
+        .imgPer{
+            width: 200px;
+        }
+    }
+
+    @media (max-width:993px){
+        .imgIni{
+            width:280px;
+            height:380px
+        }
+        
+        .imgAut{
+            width:250px; 
+            height:400px
+        }
+    }
+
+    @media (max-width:845px){
+        .imgIni{
+            width:250px;
+            height:380px
+        }
+    }
+
+    @media (max-width:766px){
+        .imgPer{
+            width: 200px;
+        }
+
+        .imgAut{
+            width:300px; 
+            height:400px
+        }
+    }
+
+    @media (max-width:460px){
+        #titulo{
+            font-size: 12pt;
+        }
+    }
